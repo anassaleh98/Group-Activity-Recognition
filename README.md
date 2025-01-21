@@ -1,4 +1,8 @@
-## [A Hierarchical Deep Temporal Model for Group Activity Recognition. Mostafa S. Ibrahim, Srikanth Muralidharan, Zhiwei Deng, Arash Vahdat, Greg Mori. IEEE Computer Vision and Pattern Recognition 2016](http://www.cs.sfu.ca/~mori/research/papers/ibrahim-cvpr16.pdf)
+<div align="center">
+  <h1>Group Activity Recognition</h1>
+
+  A new implementation of the **CVPR 2016 paper**, [**"A Hierarchical Deep Temporal Model for Group Activity Recognition"**](http://www.cs.sfu.ca/~mori/research/papers/ibrahim-cvpr16.pdf), is provided in this repository.
+</div>
 
 ## Contents
 0. [Key Updates](#key-updates)
@@ -6,9 +10,9 @@
 0. [Ablation Study](#ablation-study)
 
 ## Key Updates
-- Introduced a ....
-- Improved accuracy for group activity recognition.
-
+- Replaced AlexNet with ResNet50 for better feature extraction.
+- Achieved higher baseline accuracies.
+- Switched from Caffe to Python.  
 ## Dataset
 
 This dataset was collected using publicly available YouTube volleyball videos and annotated with 4,830 frames handpicked from 55 videos, with 9 player action labels and 8 team activity labels.
@@ -60,7 +64,6 @@ The list of action and activity labels and related statistics are tabulated in t
 - An annotation line format: `{Frame ID} {Frame Activity Class} {Player Annotation}  {Player Annotation} ...`
   - Player Annotation: a tight bounding box around each player.
 - Player Annotation format: `{Action Class} X Y W H`
-- Videos with a resolution of 1920x1080 are: 2, 37, 38, 39, 40, 41, 44, 45 (8 total). All others are 1280x720.
 
 **Downloading the dataset**:  
 The dataset can be accessed from the following sources:
