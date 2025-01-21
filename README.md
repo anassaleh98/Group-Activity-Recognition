@@ -25,21 +25,7 @@
 
 ### [NEW Download Link (all below combined google drive](https://drive.google.com/drive/folders/1rmsrG1mgkwxOKhsr-QYoi9Ss92wQmCOS?usp=sharing). 
 
-### [Old Download Link](http://vml.cs.sfu.ca/wp-content/uploads/volleyballdataset/volleyball.zip). 
-If links don't work at some point, please email me (mostafa.saad.fci@gmail.com)
-
-**Download Error**: Got quota issue? Google 'How To Fix Google Drive Download Quota Exceeded'
-
-**UPDATE 1**: many people asked for extracted trajectories. In fact, as in our code, we generate them on the fly using Dlib Tracker. I extrated and saved them to disk (I did few verifications). Hopefully this helps more. [Download](https://drive.google.com/file/d/0B_rSt5dGmwYBQkh2WFNKTjBSeWM/view?usp=sharing).
-
-**UPDATE 2**: My College, Jiawei (Eric) He, Recently trained 2 Faster-RCNN detectors using the training detections. One detector just detects the person. The other one detects the action of the person. Each row has format: [Image name # of detections x y w h confidence category (for each detection)]. Multiple scenarios such data can be useful and cut your time. I did few verifications over them. Notice, these data are not used in our models. They are provided to help :). [Download](https://drive.google.com/file/d/0B_rSt5dGmwYBQXVqLUNKd3FUdVE/view?usp=sharing).
-
-**UPDATE 3 - NEW**: Special thanks for Norimichi Ukita (a [professor](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/) at Toyota Technological Institute) for providing manual annotations for the trajectories on all video sequences. [Download](https://drive.google.com/open?id=1M-fXmAVw8WyFr30xb-LMi_Z-Qiv2nFzl). Kindely checkout the README file for data format and cite their paper if used the annotations (Heatmapping of People Involved in Group Activities, Kohei Sendo and Norimichi Ukita, MVA 2019) 
-
-**UPDATE 4 - NEW**: Special thanks for Mauricio Perez. In their recent paper: [Skeleton-based relational reasoning for group activity analysis](https://www.sciencedirect.com/science/article/abs/pii/S0031320321005409) they manually annotated the ball locations in the frames. Kindely cite their paper if you used their [dataset extension](https://drive.google.com/file/d/1urZpZiiepC85JD1u3VeURgUpztRgI0yl/edit)
-
-
-We collected a new dataset using publicly available **YouTube volleyball** videos. We annotated **4830 frames** that were handpicked from **55 videos** with 9 player action labels and 8 team activity labels. 
+This dataset was collected using publicly available YouTube volleyball videos and annotated with 4,830 frames that were handpicked from 55 videos, with 9 player action labels and 8 team activity labels.
 
 <img src="https://github.com/mostafa-saad/deep-activity-rec/blob/master/img/dataset1.jpg" alt="Figure 3" height="400" >
 
