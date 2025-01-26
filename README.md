@@ -20,7 +20,7 @@ The table below highlights the comparison between the original paper's baseline 
 
 | **Baseline**                                   | **Accuracy (Paper)** | **Accuracy (New Implementation)** | **F1 Score (New Implementation)** |
 |------------------------------------------------|-----------------------|----------------------------------|-----------------------------------|
-| B1 - Image Classification                      | 66.7%                 | 85%                               | 85%                              |
+| B1 - Image Classification                      | 66.7%                 | 85.12%                            | 85.16%                           |
 | B2 - Person Classification                     | 64.6%                 | Skipped                           | Skipped                          |
 | B3 - Fine-tuned Person Classification          | 68.1%                 | 75.17%                            | 75.28%                           |
 | B4 - Temporal Model with Image Features        | 63.1%                 |                                   |                                  |
