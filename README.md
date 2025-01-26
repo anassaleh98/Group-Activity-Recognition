@@ -12,7 +12,21 @@
 ## Key Updates
 - Replaced AlexNet with ResNet50 for better feature extraction.
 - Achieved higher baseline accuracies.
-- Switched from Caffe to Python.  
+- Switched from Caffe to Python.
+
+### Performance Comparison
+
+The table below highlights the comparison between the original paper's baseline accuracies and the improvements achieved in this implementation:
+
+| **Baseline**                                   | **Accuracy (Paper)** | **Accuracy (New Implementation)** | **F1 Score (New Implementation)** |
+|------------------------------------------------|-----------------------|----------------------------------|-----------------------------------|
+| B1 - Image Classification                      | 66.7%                | 85%                              | 85%                               |
+| B2 - Person Classification                     | 64.6%                | Skipped                          | Skipped                           |
+| B3 - Fine-tuned Person Classification          | 68.1%                | 75.17%                              | 75.28%                              |
+| B4 - Temporal Model with Image Features        | 63.1%                |                               |                               |
+| B5 - Temporal Model with Person Features       | 67.6%                |                          |                            |
+| B6 - Two-stage Model without LSTM 1           | 74.7%                |                               |                               |
+| B7 - Two-stage Model without LSTM 2           | 80.2%                |                               |                               |
 ## Dataset
 
 This dataset was collected using publicly available YouTube volleyball videos and annotated with 4,830 frames handpicked from 55 videos, with 9 player action labels and 8 team activity labels.
