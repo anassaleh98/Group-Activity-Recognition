@@ -14,7 +14,7 @@
 - Achieved higher baseline accuracies.
 - Switched from Caffe to Python.
 
-### Performance Comparison
+## Performance Comparison
 
 The table below highlights the comparison between the original paper's baseline accuracies and the improvements achieved in this implementation:
 
