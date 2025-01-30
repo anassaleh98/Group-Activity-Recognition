@@ -1,0 +1,37 @@
+Epoch [1/35] Loss: 2.0179, Accuracy: 19.66%, F1 Score: 0.1918
+Epoch [2/35] Loss: 1.4809, Accuracy: 40.10%, F1 Score: 0.4019
+Epoch [3/35] Loss: 1.2204, Accuracy: 50.93%, F1 Score: 0.5056
+Epoch [4/35] Loss: 1.0925, Accuracy: 57.53%, F1 Score: 0.5724
+Epoch [5/35] Loss: 0.9983, Accuracy: 60.13%, F1 Score: 0.6005
+Epoch [6/35] Loss: 0.9170, Accuracy: 63.89%, F1 Score: 0.6379
+Epoch [7/35] Loss: 0.9024, Accuracy: 64.68%, F1 Score: 0.6458
+Epoch [8/35] Loss: 0.8469, Accuracy: 67.52%, F1 Score: 0.6743
+Epoch [9/35] Loss: 0.7878, Accuracy: 68.36%, F1 Score: 0.6815
+Epoch [10/35] Loss: 0.7665, Accuracy: 70.49%, F1 Score: 0.7036
+Epoch [11/35] Loss: 0.7183, Accuracy: 71.89%, F1 Score: 0.7182
+Epoch [12/35] Loss: 0.7133, Accuracy: 72.63%, F1 Score: 0.7243
+Epoch [13/35] Loss: 0.7079, Accuracy: 72.07%, F1 Score: 0.7196
+Epoch [14/35] Loss: 0.6899, Accuracy: 74.07%, F1 Score: 0.7402
+Epoch [15/35] Loss: 0.6389, Accuracy: 75.65%, F1 Score: 0.7554
+Epoch [16/35] Loss: 0.6251, Accuracy: 75.84%, F1 Score: 0.7580
+Epoch [17/35] Loss: 0.6471, Accuracy: 75.09%, F1 Score: 0.7504
+Epoch [18/35] Loss: 0.6332, Accuracy: 75.00%, F1 Score: 0.7496
+Epoch [19/35] Loss: 0.5990, Accuracy: 76.72%, F1 Score: 0.7677
+Epoch [20/35] Loss: 0.5832, Accuracy: 75.98%, F1 Score: 0.7595
+Epoch [21/35] Loss: 0.5389, Accuracy: 77.37%, F1 Score: 0.7717
+Epoch [22/35] Loss: 0.5033, Accuracy: 80.67%, F1 Score: 0.8065
+Epoch [23/35] Loss: 0.4662, Accuracy: 81.78%, F1 Score: 0.8173
+Epoch [24/35] Loss: 0.4415, Accuracy: 82.90%, F1 Score: 0.8285
+Epoch [25/35] Loss: 0.4349, Accuracy: 82.39%, F1 Score: 0.8236
+Epoch [26/35] Loss: 0.4010, Accuracy: 84.80%, F1 Score: 0.8480
+Epoch [27/35] Loss: 0.3983, Accuracy: 84.34%, F1 Score: 0.8433
+Epoch [28/35] Loss: 0.4009, Accuracy: 84.67%, F1 Score: 0.8464
+Epoch [29/35] Loss: 0.4111, Accuracy: 84.43%, F1 Score: 0.8441
+Epoch [30/35] Loss: 0.4027, Accuracy: 83.97%, F1 Score: 0.8395
+Epoch [31/35] Loss: 0.3967, Accuracy: 83.55%, F1 Score: 0.8350
+Epoch [32/35] Loss: 0.3741, Accuracy: 85.36%, F1 Score: 0.8533
+Epoch [33/35] Loss: 0.3486, Accuracy: 84.99%, F1 Score: 0.8494
+Epoch [34/35] Loss: 0.3985, Accuracy: 83.50%, F1 Score: 0.8342
+Epoch [35/35] Loss: 0.3664, Accuracy: 85.92%, F1 Score: 0.8593
+
+Validation Loss: 0.7041, Accuracy: 80.01%, F1 Score: 0.8008
