@@ -1,3 +1,6 @@
+'''
+Baseline 1 - Image Classification
+'''
 from model import train, evaluate, create_confusion_matrix
 from data_preparation import testloader
 
