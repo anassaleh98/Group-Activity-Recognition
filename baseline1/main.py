@@ -4,15 +4,17 @@ Baseline 1 - Image Classification
 from model import train, evaluate, create_confusion_matrix
 from data_preparation import testloader
 
-# strat training
-train()
-
-# Test  
-print("\nTesting model performance:")
-evaluate(testloader, "Test")
-
-# Test confusion matrix
-create_confusion_matrix(testloader)
+if __name__ == "__main__":
+    # strat training
+    print("start training")
+    train()
+    
+    # Test  
+    print("\nTesting model performance:")
+    evaluate(testloader, "Test")
+    
+    # Test confusion matrix
+    create_confusion_matrix(testloader)
 
 
 

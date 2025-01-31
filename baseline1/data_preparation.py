@@ -123,7 +123,7 @@ val_videos = [0, 2, 8, 12, 17, 19, 24, 26, 27, 28, 30, 33, 46, 49, 51]
 test_videos = [4, 5, 9, 11, 14, 20, 21, 25, 29, 34, 35, 37, 43, 44, 45, 47]
 
 # Dataset path 
-dataset_path = '/kaggle/input/volleyball/volleyball_/videos'
+dataset_path = r'E:\Machine Learining\Dr Mostafa Saad\ML\Slides\15 Deep Learning Project for CNN+LSTM\Data\videos'
 
 # Prepare datasets for train, validation, and test splits
 train_data = prepare_dataset(train_videos, dataset_path)

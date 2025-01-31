@@ -28,7 +28,7 @@ for layer in [model.layer1]:
 
 
 # Move the model to the GPU if available
-device = torch.device("cuda")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 
