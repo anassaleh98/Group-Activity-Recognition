@@ -5,7 +5,7 @@ from model import train, evaluate, create_confusion_matrix
 from data_preparation import testloader
 
 if __name__ == "__main__":
-    # strat training
+    # start training
     print("start training")
     train()
     
