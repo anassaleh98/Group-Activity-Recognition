@@ -88,11 +88,11 @@ The dataset can be accessed from the following sources:
 ## Ablation Study
 ### Baselines:
 
-- **B1: Image Classification**: 
-A straightforward image classifier based on ResNet-50, fine-tuned to classify group activities using a single frame from a video clip.
+- **B1: Image Classification:**                                                                                                                                                                                      
+    A straightforward image classifier based on ResNet-50, fine-tuned to classify group activities using a single frame from a video clip.
 
-- **B3: Fine-tuned Person Classification**:
-The ResNet-50 CNN model is deployed on each person. Feature extraction for each crop 2048 features are pooled over all people and then fed to a softmax classifier to recognize group activities in a single frame.
+- **B3: Fine-tuned Person Classification:**                                                                                                                                                                       
+    The ResNet-50 CNN model is deployed on each person. Feature extraction for each crop 2048 features are pooled over all people and then fed to a softmax classifier to recognize group activities in a single frame.
 
-- **B4: Temporal Model with Image Features**:
-A video classifier using ResNet-50 as a feature extractor, followed by an LSTM layer to capture temporal dependencies across 9-frame sequences.
+- **B4: Temporal Model with Image Features:**                                                                                                                                                                       
+    A video classifier using ResNet-50 as a feature extractor, followed by an LSTM layer to capture temporal dependencies across 9-frame sequences.
