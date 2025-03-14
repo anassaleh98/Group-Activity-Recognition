@@ -1,7 +1,0 @@
-Epoch [1/5], Loss: 1.1515, Accuracy: 59.25%, F1 Score: 0.5943
-Epoch [2/5], Loss: 0.8756, Accuracy: 68.40%, F1 Score: 0.6848
-Epoch [3/5], Loss: 0.7570, Accuracy: 72.82%, F1 Score: 0.7286
-Epoch [4/5], Loss: 0.5865, Accuracy: 79.32%, F1 Score: 0.7943
-Epoch [5/5], Loss: 0.5213, Accuracy: 81.83%, F1 Score: 0.8185
-
-Validation Loss: 0.8730, Accuracy: 70.54%, F1 Score: 0.7081
