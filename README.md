@@ -93,3 +93,6 @@ A straightforward image classifier based on ResNet-50, fine-tuned to classify gr
 
 - **B3: Fine-tuned Person Classification**:
 The ResNet-50 CNN model is deployed on each person. Feature extraction for each crop 2048 features are pooled over all people and then fed to a softmax classifier to recognize group activities in a single frame.
+
+- **B4: Temporal Model with Image Features**:
+A video classifier using ResNet-50 as a feature extractor, followed by an LSTM layer to capture temporal dependencies across 9-frame sequences.
