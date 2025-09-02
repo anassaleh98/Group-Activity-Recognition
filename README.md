@@ -89,10 +89,10 @@ The dataset can be accessed from the following sources:
 ### Baselines:
 
 - **B1: Image Classification:**                                                                                                                                                                                      
-    A straightforward image classifier based on ResNet-50, fine-tuned to classify group activities using a single frame from a video clip.
+    A simple image classification approach using a ResNet-50 backbone, fine-tuned to recognize group activities from a single frame of a video clip. This model directly predicts the group activity without explicitly considering individual participants.
 
 - **B3: Fine-tuned Person Classification:**                                                                                                                                                                       
-    The ResNet-50 CNN model is deployed on each person. Feature extraction for each crop 2048 features are pooled over all people and then fed to a softmax classifier to recognize group activities in a single frame.
+    In this setting, the ResNet-50 CNN is applied to each detected person within the frame. For each person crop, a 2048-dimensional feature vector is extracted. These features are then aggregated across all individuals (via pooling) and passed through a softmax classifier to predict the group activity for the given frame.
 
 - **B4: Temporal Model with Image Features:**                                                                                                                                                                       
     A video classifier using ResNet-50 as a feature extractor, followed by an LSTM layer to capture temporal dependencies across 9-frame sequences.
